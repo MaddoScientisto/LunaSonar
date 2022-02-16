@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LunaSonar.Core.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace LunaSonar.Core.Services
     {
         Task Init();
         Task Authenticate();
-        Task Monitor();
+        Task<MonitorResult> Monitor();
 
     }
 }

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunaSonar", "LunaSonar\LunaSonar.csproj", "{CD24840B-2B75-4C77-B4F5-AD7195726F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunaSonar", "LunaSonar\LunaSonar.csproj", "{CD24840B-2B75-4C77-B4F5-AD7195726F69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunaSonar.Core", "LunaSonar.Core\LunaSonar.Core.csproj", "{545B16DC-8944-4EA0-8F28-B086CD83E9E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunaSonar.Core", "LunaSonar.Core\LunaSonar.Core.csproj", "{545B16DC-8944-4EA0-8F28-B086CD83E9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunaSonar.Console", "LunaSonar.Console\LunaSonar.Console.csproj", "{56828730-C9C6-4B0E-A99C-D96126678F5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{545B16DC-8944-4EA0-8F28-B086CD83E9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545B16DC-8944-4EA0-8F28-B086CD83E9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545B16DC-8944-4EA0-8F28-B086CD83E9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56828730-C9C6-4B0E-A99C-D96126678F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56828730-C9C6-4B0E-A99C-D96126678F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56828730-C9C6-4B0E-A99C-D96126678F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56828730-C9C6-4B0E-A99C-D96126678F5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

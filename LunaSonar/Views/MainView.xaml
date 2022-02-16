@@ -9,7 +9,7 @@
                xmlns:ls="clr-namespace:LunaSonar"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    
         <StackPanel Orientation="Vertical">
             <TextBlock>Username</TextBlock>
             <TextBox x:Name="txtUserName" Text="{Binding UserName, Mode=TwoWay}" ></TextBox>
@@ -25,5 +25,5 @@
             <TextBox x:Name="txtUserToCheck" Text="SearchString"></TextBox>
             <Button x:Name="btnCheck" Command="{Binding CheckCommand, Mode=TwoWay}">Check</Button>
         </StackPanel>
-    </Grid>
+    
 </views:MvxWpfView>
